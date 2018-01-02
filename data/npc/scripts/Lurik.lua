@@ -71,7 +71,7 @@ local function creatureSayCallback(cid, type, msg)
 		end
 	elseif msgcontains(msg, "yes") then
 		-- ISLAND OF DRAGONS
-		elseif npcHandler.topic[cid] == 1 then
+		if npcHandler.topic[cid] == 1 then
 			npcHandler:say({
 				"Now we're talking! Maybe you've already heard of the island Okolnir south of Hrodmir. ...",
 				"Okolnir is the home of a new and fierce dragon race, the so-called frost dragons. However, we have no idea where they originate from. ...",
@@ -81,7 +81,7 @@ local function creatureSayCallback(cid, type, msg)
 			npcHandler.topic[cid] = 0
 			player:setStorageValue(Storage.ExplorerSociety.QuestLine, 57)
 		-- ISLAND OF DRAGONS
-		if npcHandler.topic[cid] == 2 then
+		elseif npcHandler.topic[cid] == 2 then
 			npcHandler:say("Excellent. Just report about your mission when you got the memory crystal.", cid)
 			player:setStorageValue(Storage.TheIceIslands.Questline, 33)
 			player:setStorageValue(Storage.TheIceIslands.Mission08, 2) -- Questlog The Ice Islands Quest, The Contact
