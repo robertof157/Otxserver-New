@@ -14,11 +14,6 @@
     <globalevent name="Obujos1" time="23:59:00" script="bosses/Obujos.lua"/>
     <globalevent name="Tanjis1" time="20:59:00" script="bosses/Tanjis.lua"/>
     <globalevent name="Jaul1" time="15:59:00" script="bosses/Jaul.lua"/>
-    <globalevent name="Mad1" time="10:00:00" script="bosses/Mad.lua"/>
-    <globalevent name="Mad2" time="14:00:00" script="bosses/Mad.lua"/>
-    <globalevent name="Mad3" time="18:00:00" script="bosses/Mad.lua"/>
-    <globalevent name="Mad4" time="22:00:00" script="bosses/Mad.lua"/>
-    <globalevent name="Mad5" time="02:00:00" script="bosses/Mad.lua"/>
     <globalevent name="grayIslandBosses" type="startup" script="gray island/grayIslandBosses.lua"/>
     <globalevent name="npcs" type="startup" script="others/npcspawn.lua"/>
 
@@ -37,6 +32,7 @@
 
 	<!-- World Changes -->
 	<globalevent name="FuryGates" type="startup" script="worldchanges/furygates.lua" />
+	<globalevent name="TheirMastersVoice" type="startup" script="worldchanges/theirmastersvoice.lua" />
 
 	<!-- Others --> 
 	<globalevent type="startup" name="ServerStartup" script="startup.lua" />
