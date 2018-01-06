@@ -57,6 +57,9 @@ Executaveis compilados [AppVeyor builds for Windows](https://ci.appveyor.com/pro
 
 [Versão 11](https://secure.tibia.com/account/?subtopic=downloadclient)
 
+# Client Editado para LOCALHOST
+[Versão 10](https://github.com/malucooo/Otxserver-New/tree/master/client/localhost.zip)
+
 # IpChanger
 Versões 7.x - 10.x: [Compilado](https://static.otland.net/ipchanger.exe)
 
