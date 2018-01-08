@@ -314,7 +314,7 @@
 	<action actionid="5556" script="other/ghostship.lua" />
 
 	<!-- Farmine -->
-	<action fromaid="9118" toaid="9121" script="farmine/elevatorLever.lua" />
+	<action fromaid="9118" toaid="9123" script="farmine/elevatorLever.lua" />
 	<action fromaid="12141" toaid="12142" script="farmine/templeofequilibrium_vines.lua" />
 
 	<!-- Weapons enchanting (Gems) -->
