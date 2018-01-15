@@ -2538,7 +2538,7 @@
 	<item id="2239" article="a" name="burnt scroll">
 		<attribute key="weight" value="40" />
 	</item>
-	<item id="2240" name="remains of a fish">
+	<item id="2240" name="fish remains">
 		<attribute key="weight" value="110" />
 	</item>
 	<item id="2241" name="rubbish">
@@ -3044,7 +3044,7 @@
 	<item id="2372" article="a" name="lyre">
 		<attribute key="weight" value="1250" />
 	</item>
-	<item id="2373" name="panpipes">
+	<item id="2373" name="panpipe">
 		<attribute key="weight" value="820" />
 	</item>
 	<item id="2374" article="a" name="wooden flute">
@@ -11295,7 +11295,7 @@
 		<attribute key="shootType" value="infernalbolt" />
 		<attribute key="maxHitChance" value="91" />
 	</item>
-	<item id="6530" article="a" name="worn leather boots">
+	<item id="6530" article="a" name="worn leather boot">
 		<attribute key="weight" value="900" />
 	</item>
 	<item id="6531" article="a" name="santa hat">
@@ -11342,21 +11342,21 @@
 	<item id="6546" name="Dracola's eye">
 		<attribute key="weight" value="1500" />
 	</item>
-	<item id="6547" name="easily inflammable sulphur">
+	<item id="6547" name="yellow powder">
 		<attribute key="weight" value="50" />
 		<attribute key="showcount" value="0" />
 	</item>
-	<item id="6548" article="a" name="violet sulphur">
+	<item id="6548" article="a" name="purple powder">
 		<attribute key="weight" value="750" />
 	</item>
-	<item id="6549" article="a" name="green sulphur">
+	<item id="6549" article="a" name="green powder">
 		<attribute key="weight" value="750" />
 	</item>
-	<item id="6550" article="a" name="demon dust">
+	<item id="6550" article="a" name="red powder">
 		<attribute key="description" value="It reeks of hatred and malice." />
 		<attribute key="weight" value="100" />
 	</item>
-	<item id="6551" article="a" name="vampire dust">
+	<item id="6551" article="a" name="blue powder">
 		<attribute key="description" value="Sun can be a merciless killer, but so can you." />
 		<attribute key="weight" value="100" />
 	</item>
@@ -15630,7 +15630,7 @@
 	<item id="8843" article="an" name="onion">
 		<attribute key="weight" value="140" />
 	</item>
-	<item id="8844" name="jalapeño pepper" article="a">
+	<item id="8844" name="jalapeno pepper" article="a">
 		<attribute key="weight" value="30" />
 	</item>
 	<item id="8845" article="a" name="beetroot">
@@ -16952,14 +16952,9 @@
 	<item id="9692" article="a" name="ring">
 		<attribute key="weight" value="5" />
 	</item>
-	<!-- 
 	<item id="9693" article="a" name="jester doll">
 		<attribute key="weight" value="1200" />
 	</item>	
-	-->
-	<item id="9693" article="a" name="mount doll">
-		<attribute key="weight" value="1200" />
-	</item>
 	<item id="9694" name="the head of a jester doll">
 		<attribute key="weight" value="400" />
 	</item>
@@ -19815,7 +19810,7 @@
 		<attribute key="weaponType" value="axe" />
 		<attribute key="slotType" value="two-handed" />
 	</item>
-	<item id="11306" article="a" name="sais">
+	<item id="11306" article="a" name="sai">
 		<attribute key="weight" value="5000" />
 		<attribute key="defense" value="27" />
 		<attribute key="attack" value="45" />
@@ -23100,9 +23095,9 @@
 	<item fromid="14734" toid="14749" article="a" name="need name" />
 	<item fromid="14750" toid="14771" article="a" name="hive gate" />
 	<item fromid="14772" toid="14773" article="an" name="Insectoid antenna" />
-	<item fromid="14774" toid="14777" article="an" name="Insectoid eggs" />
+	<item fromid="14774" toid="14777" article="an" name="Insectoid egg" />
 	<item id="14778" article="a" name="broken insectoid eggs" />
-	<item id="14779" article="an" name="Insectoid eggs" />
+	<item id="14779" article="an" name="Insectoid egg" />
 	<item fromid="14780" toid="14788" article="a" name="broken insectoid eggs" />
 	<item fromid="14789" toid="14800" article="an" name="Insectoid hivecomb" />
 	<item fromid="14801" toid="14811" article="a" name="hivecomb floor" />
@@ -28804,7 +28799,7 @@
 	<item fromid="20744" toid="20745" article="a" name="mining crane" />
 	<item fromid="20746" toid="20747" article="a" name="crude water conveyor" />
 	<item fromid="20748" toid="20751" article="a" name="mining conveyor belt" />
-	<item id="20752" article="a" name="pick" />
+	<item id="20752" article="a" name="picks" />
 	<item fromid="20753" toid="20758" article="a" name="hedge" />
 	<item id="20759" article="a" name="lurking tree" />
 	<item id="20760" article="a" name="small birch" />
@@ -30746,7 +30741,19 @@
 		<attribute key="weight" value="1000" />
 	</item>
 	<item fromid="22717" toid="22720" article="a" name="large basin" />
-	<item fromid="22721" toid="22744" article="an" name="Item desconhecido" />
+	<item id="22726" article="a" name="melting horn">
+		<attribute key="description" value="A hermit near Carlin might be able to tell you more about it." />
+		<attribute key="weight" value="200" />
+	</item>
+	<item id="22727" article="a" name="fireproof horn">
+		<attribute key="description" value="It's very sturdy and could even be considered fireproof." />
+		<attribute key="weight" value="200" />
+	</item>
+	<item id="22728" article="a" name="tinder box">
+		<attribute key="description" value="It is a delicate box and fully stuffed with tinder as well as igniters." />
+		<attribute key="weight" value="200" />
+	</item>
+	<item fromid="22729" toid="22744" article="an" name="Item desconhecido" />
 	<item fromid="22745" toid="22762" article="a" name="stone floor" />
 	<item fromid="22763" toid="22777" article="a" name="wall" />
 	<item fromid="22778" toid="22789" article="a" name="small wall" />
@@ -30788,7 +30795,7 @@
 	</item>
 	<item fromid="22868" toid="22871" article="a" name="street lamp" />
 	<item fromid="22872" toid="22875" article="a" name="candle" />
-	<item fromid="22876" toid="22879" article="a" name="gear wheel" />
+	<item fromid="22876" toid="22879" article="a" name="gear wheels" />
 	<item fromid="22888" toid="22903" article="a" name="sewer pipe" />
 	<item fromid="22904" toid="22940" article="a" name="stone floor" />
 	<item fromid="22941" toid="22943" article="a" name="wall" />
@@ -33827,7 +33834,7 @@
 		<attribute key="duration" value="300" />
 		<attribute key="corpseType" value="blood" />
 	</item>		
-	<item id="25402" name="ancient amulet">
+	<item id="25402" name="ancient amulets">
 		<attribute key="weight" value="300" />
 	</item>		
 	<item id="25403" article="a" name="water vortex">
@@ -34117,7 +34124,7 @@
 	<item id="25526" name="desconhecido" />
 	<item id="25527" name="desconhecido" />
 	<item id="25528" name="stone floor" />
-	<item id="25529" name="grave flower" />
+	<item id="25529" name="grave flowers" />
 	<item id="25530" name="grass" />
 	<item id="25531" name="coal basin" />
 	<item id="25532" name="coal basin" />
