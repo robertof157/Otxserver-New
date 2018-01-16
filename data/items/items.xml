@@ -17213,6 +17213,38 @@
 		<attribute key="imbuingSlots" value="1" />
 	</item>
 	<item id="9779" article="a" name="crystal column" />
+	<item id="9780" article="a" name="dead new boss">
+		<attribute key="weight" value="120000" />
+		<attribute key="containerSize" value="10" />
+		<attribute key="decayTo" value="9781" />
+		<attribute key="duration" value="60" />
+		<attribute key="corpseType" value="blood" />
+		<attribute key="fluidSource" value="blood" />
+	</item>
+	<item id="9781" article="a" name="dead new boss">
+		<attribute key="weight" value="120000" />
+		<attribute key="containerSize" value="10" />
+		<attribute key="decayTo" value="9782" />
+		<attribute key="duration" value="60" />
+		<attribute key="corpseType" value="blood" />
+		<attribute key="fluidSource" value="blood" />
+	</item>
+	<item id="9782" article="a" name="dead new boss">
+		<attribute key="weight" value="120000" />
+		<attribute key="containerSize" value="10" />
+		<attribute key="decayTo" value="9783" />
+		<attribute key="duration" value="60" />
+		<attribute key="corpseType" value="blood" />
+		<attribute key="fluidSource" value="blood" />
+	</item>
+	<item id="9783" article="a" name="dead new boss">
+		<attribute key="weight" value="120000" />
+		<attribute key="containerSize" value="10" />
+		<attribute key="decayTo" value="0" />
+		<attribute key="duration" value="60" />
+		<attribute key="corpseType" value="blood" />
+		<attribute key="fluidSource" value="blood" />
+	</item>
 	<item fromid="9784" toid="9791" article="a" name="crystal column" />
 	<item fromid="9792" toid="9799" name="earth" />
 	<item id="9800" article="an" name="iron floor" />
